@@ -1,0 +1,40 @@
+.contacto__container{
+  padding: $padding-section;
+  background: $black;
+  color: $main;
+}
+
+.contacto__wraper__flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contacto__map__iframe{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.contacto__text{
+  &__direccion p{
+    max-width: 400px;
+    padding-left: 10px;
+  }
+  &__telefono p{
+    padding-left: 10px;
+  }
+}
+
+
+.contacto__item{
+  width: 100%;
+  padding: 10px 20px;
+  p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  @include md {
+    width: 50%;
+  }
+}
