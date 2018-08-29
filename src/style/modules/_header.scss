@@ -1,6 +1,4 @@
 .header{
-    position: fixed;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -8,6 +6,11 @@
     margin: 0;
     background: $secondary;
     padding-top: 10px;
+    @include md {
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
     &__logo{
         max-width: 70px;
         padding-left: 10px;

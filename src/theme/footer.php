@@ -20,22 +20,22 @@
                     </div>
                     <div class="footer__vertical__2__menu">
                         <ul>
-                            <li>Inicio</li>
-                            <li>Historia del Taller</li>
-                            <li>Inscribete</li>
-                            <li>¿Eres Tallerista?</li>
-                            <li>Aviso de Privacidad</li>
+                            <li>- Inicio</li>
+                            <li>- Historia del Taller</li>
+                            <li>- Inscribete</li>
+                            <li>- ¿Eres Tallerista?</li>
+                            <li>- Aviso de Privacidad</li>
                         </ul>
                     </div>
                     <div class="footer__vertical__2__keywords">
                         <ul>
-                            <li>pintura</li>
-                            <li>dibujo</li>
-                            <li>escultura y modelado</li>
-                            <li>mascaras de papel mache</li>
-                            <li>grabado</li>
-                            <li>fotografia</li>
-                            <li>Curso de stencil</li>
+                            <li><i class="fas fa-angle-double-right"></i> pintura</li>
+                            <li><i class="fas fa-angle-double-right"></i> dibujo</li>
+                            <li><i class="fas fa-angle-double-right"></i> escultura y modelado</li>
+                            <li><i class="fas fa-angle-double-right"></i> mascaras de papel mache</li>
+                            <li><i class="fas fa-angle-double-right"></i> grabado</li>
+                            <li><i class="fas fa-angle-double-right"></i> fotografia</li>
+                            <li><i class="fas fa-angle-double-right"></i> Curso de stencil</li>
                         </ul>
                     </div>
                 </div>
@@ -48,9 +48,9 @@
                     </div>
                     <div class="footer__3__vertical__social">
                         <ul>
-                            <li>Facebook</li>
-                            <li>Twitter</li>
-                            <li>Instagram</li>
+                            <li><i class="fab fa-facebook"></i> Facebook</li>
+                            <li><i class="fab fa-twitter"></i> Twitter</li>
+                            <li><i class="fab fa-instagram"></i> Instagram</li>
                         </ul>
                     </div>
                 </div>

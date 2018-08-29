@@ -33,17 +33,29 @@
           <img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/test_thumbnail_359*320_1.png'; echo esc_url( $url ); ?> " alt="thumbnailTaller">
         </div>
         <div class="talleres__taller__title">
-          <h4>Titulo de taller</h4>
+          <h4>Taller de escultura en modelado</h4>
         </div>
         <div class="talleres__taller__data">
-          <div class="talleres__taller__data__inicio">Inicio: xx-xxxxx-xx</div>
-          <div class="talleres__taller__data__sesiones">Sessiones: 10</div>
-          <div class="talleres__taller__data__horario">Horario: x:xx - x:xx</div>
-          <div class="talleres__taller__data__precio">$9,999.00</div>
+          <div class="talleres__taller__data__inicio">Inicio: <span> 10-jul-2018</span></div>
+          <div class="talleres__taller__data__sesiones">Sessiones: <span> 8</span></div>
+          <div class="talleres__taller__data__horario">Horario: <span> 5:00PM - 7:00PM</span></div>
+          <div class="talleres__taller__data__precio">MX$900.00</div>
         </div>
         <div class="talleres__taller__buttons">
-          <div class="talleres__taller__buttons__more"><a href="#">+ info</a></div>
-          <div class="talleres__taller__buttons__wha"><a href="">Inscribete por Whatssapp</a></div>
+          <!-- <div class="talleres__taller__buttons__more btn"><a href="#"> + <i class="fas fa-info"></i></a></div> -->
+          <div class="talleres__taller__buttons__wha btn">
+            <a href="">
+              <div class="button-brush">
+                <i class="fa fa-paint-brush"> </i>
+              </div>
+              <div class="button-text">
+                Inscribete por 
+              </div>
+              <div class="button-whatsapp">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+            </a>
+          </div>
         </div>
   	  </div>
       <!-- fin taller -->
@@ -52,36 +64,29 @@
           <img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/test_thumbnail_359*320_1.png'; echo esc_url( $url ); ?> " alt="thumbnailTaller">
         </div>
         <div class="talleres__taller__title">
-          <h4>Titulo de taller</h4>
+          <h4>Taller de escultura en modelado</h4>
         </div>
         <div class="talleres__taller__data">
-          <div class="talleres__taller__data__inicio"><span>Inicio:</span> xx-xxxxx-xx</div>
-          <div class="talleres__taller__data__sesiones"><span>Sessiones:</span> 10</div>
-          <div class="talleres__taller__data__horario"><span>Horario:</span> x:xx - x:xx</div>
-          <div class="talleres__taller__data__precio">$9,999.00</div>
+          <div class="talleres__taller__data__inicio">Inicio: <span> 10-jul-2018</span></div>
+          <div class="talleres__taller__data__sesiones">Sessiones: <span> 8</span></div>
+          <div class="talleres__taller__data__horario">Horario: <span> 5:00PM - 7:00PM</span></div>
+          <div class="talleres__taller__data__precio">MX$900.00</div>
         </div>
         <div class="talleres__taller__buttons">
-          <div class="talleres__taller__buttons__more btn"><a href="#">+ info</a></div>
-          <div class="talleres__taller__buttons__wha btn"><a href="">Inscribete por Whatssapp</a></div>
-        </div>
-      </div>
-        <!-- fin taller -->
-      <div class="talleres__taller shadow-2">
-        <div class="talleres__taller__thumbnail">
-          <img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/test_thumbnail_359*320_1.png'; echo esc_url( $url ); ?> " alt="thumbnailTaller">
-        </div>
-        <div class="talleres__taller__title">
-          <h4>Titulo de taller</h4>
-        </div>
-        <div class="talleres__taller__data">
-          <div class="talleres__taller__data__inicio">Inicio: xx-xxxxx-xx</div>
-          <div class="talleres__taller__data__sesiones">Sessiones: 10</div>
-          <div class="talleres__taller__data__horario">Horario: x:xx - x:xx</div>
-          <div class="talleres__taller__data__precio">$9,999.00</div>
-        </div>
-        <div class="talleres__taller__buttons">
-          <div class="talleres__taller__buttons__more"><a href="#">+ info</a></div>
-          <div class="talleres__taller__buttons__wha"><a href="">Inscribete por Whatssapp</a></div>
+          <!-- <div class="talleres__taller__buttons__more btn"><a href="#"> + <i class="fas fa-info"></i></a></div> -->
+          <div class="talleres__taller__buttons__wha btn">
+            <a href="">
+              <div class="button-brush">
+                <i class="fa fa-paint-brush"> </i>
+              </div>
+              <div class="button-text">
+                Inscribete por 
+              </div>
+              <div class="button-whatsapp">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+            </a>
+          </div>
         </div>
   	  </div>
       <!-- fin taller -->
@@ -90,58 +95,128 @@
           <img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/test_thumbnail_359*320_1.png'; echo esc_url( $url ); ?> " alt="thumbnailTaller">
         </div>
         <div class="talleres__taller__title">
-          <h4>Titulo de taller</h4>
+          <h4>Taller de escultura en modelado</h4>
         </div>
         <div class="talleres__taller__data">
-          <div class="talleres__taller__data__inicio">Inicio: xx-xxxxx-xx</div>
-          <div class="talleres__taller__data__sesiones">Sessiones: 10</div>
-          <div class="talleres__taller__data__horario">Horario: x:xx - x:xx</div>
-          <div class="talleres__taller__data__precio">$9,999.00</div>
+          <div class="talleres__taller__data__inicio">Inicio: <span> 10-jul-2018</span></div>
+          <div class="talleres__taller__data__sesiones">Sessiones: <span> 8</span></div>
+          <div class="talleres__taller__data__horario">Horario: <span> 5:00PM - 7:00PM</span></div>
+          <div class="talleres__taller__data__precio">MX$900.00</div>
         </div>
         <div class="talleres__taller__buttons">
-          <div class="talleres__taller__buttons__more"><a href="#">+ info</a></div>
-          <div class="talleres__taller__buttons__wha"><a href="">Inscribete por Whatssapp</a></div>
+          <!-- <div class="talleres__taller__buttons__more btn"><a href="#"> + <i class="fas fa-info"></i></a></div> -->
+          <div class="talleres__taller__buttons__wha btn">
+            <a href="">
+              <div class="button-brush">
+                <i class="fa fa-paint-brush"> </i>
+              </div>
+              <div class="button-text">
+                Inscribete por 
+              </div>
+              <div class="button-whatsapp">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+            </a>
+          </div>
         </div>
   	  </div>
+      <!-- fin taller -->
       <!-- fin taller -->
       <div class="talleres__taller shadow-2">
         <div class="talleres__taller__thumbnail">
           <img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/test_thumbnail_359*320_1.png'; echo esc_url( $url ); ?> " alt="thumbnailTaller">
         </div>
         <div class="talleres__taller__title">
-          <h4>Titulo de taller</h4>
+          <h4>Taller de escultura en modelado</h4>
         </div>
         <div class="talleres__taller__data">
-          <div class="talleres__taller__data__inicio">Inicio: xx-xxxxx-xx</div>
-          <div class="talleres__taller__data__sesiones">Sessiones: 10</div>
-          <div class="talleres__taller__data__horario">Horario: x:xx - x:xx</div>
-          <div class="talleres__taller__data__precio">$9,999.00</div>
+          <div class="talleres__taller__data__inicio">Inicio: <span> 10-jul-2018</span></div>
+          <div class="talleres__taller__data__sesiones">Sessiones: <span> 8</span></div>
+          <div class="talleres__taller__data__horario">Horario: <span> 5:00PM - 7:00PM</span></div>
+          <div class="talleres__taller__data__precio">MX$900.00</div>
         </div>
         <div class="talleres__taller__buttons">
-          <div class="talleres__taller__buttons__more"><a href="#">+ info</a></div>
-          <div class="talleres__taller__buttons__wha"><a href="">Inscribete por Whatssapp</a></div>
+          <!-- <div class="talleres__taller__buttons__more btn"><a href="#"> + <i class="fas fa-info"></i></a></div> -->
+          <div class="talleres__taller__buttons__wha btn">
+            <a href="">
+              <div class="button-brush">
+                <i class="fa fa-paint-brush"> </i>
+              </div>
+              <div class="button-text">
+                Inscribete por 
+              </div>
+              <div class="button-whatsapp">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+            </a>
+          </div>
         </div>
   	  </div>
+      <!-- fin taller -->
       <!-- fin taller -->
       <div class="talleres__taller shadow-2">
         <div class="talleres__taller__thumbnail">
           <img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/test_thumbnail_359*320_1.png'; echo esc_url( $url ); ?> " alt="thumbnailTaller">
         </div>
         <div class="talleres__taller__title">
-          <h4>Titulo de taller</h4>
+          <h4>Taller de escultura en modelado</h4>
         </div>
         <div class="talleres__taller__data">
-          <div class="talleres__taller__data__inicio">Inicio: xx-xxxxx-xx</div>
-          <div class="talleres__taller__data__sesiones">Sessiones: 10</div>
-          <div class="talleres__taller__data__horario">Horario: x:xx - x:xx</div>
-          <div class="talleres__taller__data__precio">$9,999.00</div>
+          <div class="talleres__taller__data__inicio">Inicio: <span> 10-jul-2018</span></div>
+          <div class="talleres__taller__data__sesiones">Sessiones: <span> 8</span></div>
+          <div class="talleres__taller__data__horario">Horario: <span> 5:00PM - 7:00PM</span></div>
+          <div class="talleres__taller__data__precio">MX$900.00</div>
         </div>
         <div class="talleres__taller__buttons">
-          <div class="talleres__taller__buttons__more"><a href="#">+ info</a></div>
-          <div class="talleres__taller__buttons__wha"><a href="">Inscribete por Whatssapp</a></div>
+          <!-- <div class="talleres__taller__buttons__more btn"><a href="#"> + <i class="fas fa-info"></i></a></div> -->
+          <div class="talleres__taller__buttons__wha btn">
+            <a href="">
+              <div class="button-brush">
+                <i class="fa fa-paint-brush"> </i>
+              </div>
+              <div class="button-text">
+                Inscribete por 
+              </div>
+              <div class="button-whatsapp">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+            </a>
+          </div>
         </div>
   	  </div>
       <!-- fin taller -->
+      <!-- fin taller -->
+      <div class="talleres__taller shadow-2">
+        <div class="talleres__taller__thumbnail">
+          <img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/test_thumbnail_359*320_1.png'; echo esc_url( $url ); ?> " alt="thumbnailTaller">
+        </div>
+        <div class="talleres__taller__title">
+          <h4>Taller de escultura en modelado</h4>
+        </div>
+        <div class="talleres__taller__data">
+          <div class="talleres__taller__data__inicio">Inicio: <span> 10-jul-2018</span></div>
+          <div class="talleres__taller__data__sesiones">Sessiones: <span> 8</span></div>
+          <div class="talleres__taller__data__horario">Horario: <span> 5:00PM - 7:00PM</span></div>
+          <div class="talleres__taller__data__precio">MX$900.00</div>
+        </div>
+        <div class="talleres__taller__buttons">
+          <!-- <div class="talleres__taller__buttons__more btn"><a href="#"> + <i class="fas fa-info"></i></a></div> -->
+          <div class="talleres__taller__buttons__wha btn">
+            <a href="">
+              <div class="button-brush">
+                <i class="fa fa-paint-brush"> </i>
+              </div>
+              <div class="button-text">
+                Inscribete por 
+              </div>
+              <div class="button-whatsapp">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+  	  </div>
+      <!-- fin taller --> 
   	</div> <!-- Fin wrpper de grid talleres -->
   </section>
 	<section class="description__container">
@@ -159,7 +234,7 @@
 	</section>
 	<section class="inscribirse__container">
     <div class="inscribirse__title">
-      <h3>Como Insribirse</h3>
+      <h3>Como Inscribirse</h3>
     </div>
     <div class="inscribirse__pasos">
       <div class="inscribirse__pasos__item">
@@ -193,7 +268,7 @@
       <div class="historia__text__description">
         <p>Pintor y escultor poblano, dedicó casi sesenta años de su vida apasionada al arte, obteniendo a lo largo de su carrera las mejores.</p>
       </div>
-      <div class="historia__text__button"><a href="">Leer más</a></div>
+      <div class="historia__text__button btn-more"><a href=""><i class="fas fa-book-open"></i> Leer más</a></div>
     </div>
   </section>
   <!-- start section tallerista -->
@@ -207,10 +282,13 @@
           <p></p>
         </div>
       </div> -->
+      <div class="tallerista__gallery">
+        <div class="div"><img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/tallerista_artemix.jpg'; echo esc_url( $url ); ?>" alt="img1"></div>
+      </div>
       <div class="tallerista__beneficios">
         <ul>
-          <li>* ¿Tienes experiencia en la docencia?</li>
-          <li>* ¿Quieres participar con tu taller?</li>
+          <li><i class="fas fa-chalkboard-teacher"></i> ¿Tienes experiencia en la docencia?</li>
+          <li><i class="fas fa-user-circle"></i> ¿Quieres participar con tu taller?</li>
         </ul>
       </div>
       <div class="tallerista__form">
@@ -232,15 +310,28 @@
       <h3>Visitanos</h3>
     </div>
     <div class="contacto__wraper__flex">
-      <div class="contacto__item contacto__text">
-        <div class="contacto__text__direccion">
-            <h4>Dirección:</h4>
-            <p>Calzada Colorines #5209 Col. Emiliano Zapata Sn Andres Cholula, Puebla Mexico (A 2 cuadras de Gran Bodega - Fed. Atlixco
-                    - Pue.)</p>
+      <div class="contacto__item contacto__form-text">
+        <div class="contacto__form-text__form">
+          <div class="form-big">
+            <form action="">
+              <div class=" form-big__input form-big__nombre"> <input type="text" placeholder="Nombre"></div>
+              <div class=" form-big__input form-big__correo"> <input type="text" placeholder="Correo"></div>
+              <div class=" form-big__input form-big__telefono"> <input type="text" placeholder="Teléfono"></div>
+              <div class=" form-big__input form-big__mensaje"> <textarea name="textarea-552"  id="your_message" aria-invalid="false" placeholder="Mensaje" cols="10" rows="3"></textarea></div>
+              <div class=" form-big__button form-big__enviar"> <input type="submit" value="Enviar"></div>
+            </form>
+          </div>
         </div>
-        <div class="contacto__text__telefono">
-            <h4>Teléfono:</h4>
+        <div class="contacto__form-text__text">
+          <div class="contacto__text__direccion">
+            <h4> <i class="fas fa-map-marker-alt contacto__text_direccion__ico"> </i> Dirección:</h4>
+            <p>Calzada Colorines #5209 Col. Emiliano Zapata Sn Andres Cholula, Puebla Mexico
+                    - Pue.)</p>
+          </div>
+          <div class="contacto__text__telefono">
+            <h4><i class="fas fa-phone contacto__text_telefono__ico"> </i> Teléfono:</h4>
             <p>044 222 808 1954</p>
+          </div>
         </div>
       </div>
       <div class="contacto__item contacto__map">

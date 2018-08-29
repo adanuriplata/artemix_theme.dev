@@ -59,7 +59,8 @@ const headerJS = [
 	'node_modules/jquery/dist/jquery.js',
 	'node_modules/nprogress/nprogress.js',
 	'node_modules/aos/dist/aos.js',
-	'node_modules/isotope-layout/dist/isotope.pkgd.js'
+	'node_modules/isotope-layout/dist/isotope.pkgd.js',
+	'node_modules/@fortawesome/fontawesome-free/js/all.js'
 ];
 const footerJS = [
 	'src/js/**'

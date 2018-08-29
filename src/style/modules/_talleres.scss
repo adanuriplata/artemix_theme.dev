@@ -20,14 +20,15 @@
         text-transform: uppercase;
         text-align: center;
         h4 {
-            margin: 15px 0;
+            margin: 15px 0 14px 0;
             font-size: $taller-title;
         }
     }
     &__data{
+        border-bottom: solid 1px $secondary-d;
         font-size: $taller-data;
         font-weight: 300;
-        padding: 0 10px;
+        padding: 0 10px 5px 10px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -36,20 +37,21 @@
         }
         div{
             width: 50%;
+            padding-bottom: 5px; 
         }
         div:nth-child(even){
             text-align: right;
         }
         &__precio{
             font-size: $taller-price;
+            font-weight: 600;
         }
     }
     &__buttons{
         display: flex;
-        justify-content: space-between;
-        div{
-            padding: 0 $padding-section;
-        }
+        justify-content: center;
+        padding: 15px 10px 5px 10px;
+        text-align: center;
     }
 
 }

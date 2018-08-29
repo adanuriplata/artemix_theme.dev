@@ -41,7 +41,8 @@ add_theme_support('custom-logo');
 //artemix Menus
 function artemix_menus(){
 	register_nav_menus( array(
-		'header-menu' => __('Header Menu', 'artemix')
+		'header-menu' => __('Header Menu', 'artemix'),
+		'social-menu' => __('Social Menu', 'artemix')
 	));
 }
 add_action('init', 'artemix_menus');
