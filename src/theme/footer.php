@@ -4,14 +4,20 @@
                     <div class="footer__vertical__1__title">
                         <h3>Contacto</h3>
                     </div>
-                    <div class="footer__vertical__1__form">
-                        <form action="">
-                            <div class="footer__form__nombre"> <input type="text" placeholder="Nombre"></div>
-                            <div class="footer__form__correo"> <input type="text" placeholder="Correo"></div>
-                            <div class="footer__form__telefono"> <input type="text" placeholder="Teléfono"></div>
-                            <div class="footer__form__mensaje"> <input type="text-area" placeholder="Mensaje"></div>
-                            <div class="footer__form__enviar"> <input type="submit" value="Enviar"></div>
-                        </form>
+                    <div class="footer__vertical__1__text__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae ex id nunc hendrerit tincidunt.
+                    </div>
+                    <div class="footer__vertical__1__ubicacion">
+                        <div class="footer__vertical__1__ubicacion__text">
+                            <div class="footer__vertical__1__ubicacion__text__direccion">
+                                <h4> <i class="fas fa-map-marker-alt contacto__text_direccion__ico"> </i> Dirección:</h4>
+                                <p>Calzada Colorines #5209 Col. Emiliano Zapata Sn Andres Cholula, Puebla Mexico</p>
+                            </div>
+                            <div class="footer__vertical__1__ubicacion__telefono">
+                                <h4><i class="fas fa-phone footer__vertical__1__ubicacion_telefono__ico"> </i> Teléfono:</h4>
+                                <p>044 222 808 1954</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="footer__vertical__item">
@@ -49,7 +55,6 @@
                     <div class="footer__3__vertical__social">
                         <ul>
                             <li><i class="fab fa-facebook"></i> Facebook</li>
-                            <li><i class="fab fa-twitter"></i> Twitter</li>
                             <li><i class="fab fa-instagram"></i> Instagram</li>
                         </ul>
                     </div>

@@ -31,15 +31,21 @@
   }
 }
 
-.footer__vertical__1__form{
-    margin: 0 auto;
-    max-width: 250px;
-    padding: 30px 20px;
-    background: $secondary-l;
-    border-radius: 5px;
+.footer__vertical__1{
+  &__ubicacion__text{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: center;
+    padding-top: 20px;
     div {
-      margin: 10px;
+      max-width: 50%;
     }
+    &__direccion{
+      padding: 0 20px;
+    }
+  }
+    
 }
 
 .footer__vertical__2__keywords{

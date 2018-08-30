@@ -58,6 +58,26 @@
       }
     }
   }
+  &__button-l{
+    margin-top: 10px;
+    padding-left: 5px;
+    input{
+      border: solid 1px $secondary;
+      background: $secondary;
+      color: $secondary-d;
+      padding: 10px 25px;
+      cursor: pointer;
+      transition: 600ms;
+      &:hover{
+      // background: rgba(0,0,0,0);
+      background: $main-d;
+      border: solid 1px $main-d;
+      padding: 11px 26px;
+      color: black;
+      
+      }
+    }
+  }
   &__correo, &__telefono{
     @include md {
     width: 50%;

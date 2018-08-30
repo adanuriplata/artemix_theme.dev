@@ -283,23 +283,28 @@
         </div>
       </div> -->
       <div class="tallerista__gallery">
-        <div class="div"><img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/tallerista_artemix.jpg'; echo esc_url( $url ); ?>" alt="img1"></div>
+        <div class="tallerista__gallery__item"><img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/tallerista_gallery_300*300_1.jpg'; echo esc_url( $url ); ?>" alt="img1"></div>
+        <div class="tallerista__gallery__item"><img src="<?php $url = home_url().'/wp-content/themes/'.get_template().'/img/tallerista_gallery_300*300_2.jpg'; echo esc_url( $url ); ?>" alt="img1"></div>
       </div>
-      <div class="tallerista__beneficios">
-        <ul>
-          <li><i class="fas fa-chalkboard-teacher"></i> ¿Tienes experiencia en la docencia?</li>
-          <li><i class="fas fa-user-circle"></i> ¿Quieres participar con tu taller?</li>
-        </ul>
-      </div>
-      <div class="tallerista__form">
-        <div class="tallerista__form__title">
-          <h4>Escribenos</h4>
+      <div class="tallerista__container_beneficios-form">
+        <div class="tallerista__beneficios">
+          <ul>
+            <li> <span class="icono"><i class="fas fa-chalkboard-teacher"></i></span> ¿Tienes experiencia en la docencia?</li>
+            <li> <span class="icono"> <i class="fas fa-palette"></i></span> ¿Quieres participar con tu taller?</li>
+          </ul>
         </div>
-        <form action="">
-          <input type="text" placeholder="Nombre">
-          <input type="text" placeholder="Correo">
-          <input type="submit" value="->">
-        </form>
+        <div class="tallerista__form">
+          <div class="tallerista__form__title">
+            <h4>Escribenos</h4>
+          </div>
+          <div class="form-big">
+            <form action="">
+              <div class="form-big__input form-big__correo"><input type="text" placeholder="Nombre"></div>
+              <div class="form-big__input form-big__correo"><input type="text" placeholder="Correo"></div>
+              <div class=" form-big__button-l form-big__enviar"><input type="submit" value="Enviar"></div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </section>
